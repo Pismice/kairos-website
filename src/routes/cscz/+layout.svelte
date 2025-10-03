@@ -15,15 +15,10 @@
 	</div>
 	<div class="flex-none">
 		<ul class="menu menu-horizontal px-1">
-			<li><a>Project philosophy</a></li>
-			<li>
-				<details>
-					<summary>Games</summary>
-					<ul class="right-0 w-100 rounded-t-none bg-base-100 p-2">
-						<li><a>Conter Strike Condition Zero: Zombie Plague</a></li>
-					</ul>
-				</details>
-			</li>
+			<li><a>Description</a></li>
+			<li><a>State of the server</a></li>
+			<li><a>Player ranking</a></li>
+			<li><a>Socials</a></li>
 		</ul>
 	</div>
 </div>
