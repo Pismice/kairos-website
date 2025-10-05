@@ -11,7 +11,7 @@
 			<li><a href="/cscz">Description</a></li>
 			<li><a href="/cscz/state">State of the server</a></li>
 			<li><a href="/cscz/ranking">Player ranking</a></li>
-			<li><a href="/cscz/socials">Socials</a></li>
+			<li><a href="/home/socials">Socials</a></li>
 		</ul>
 	</div>
 </div>

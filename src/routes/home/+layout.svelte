@@ -4,11 +4,11 @@
 
 <div class="navbar bg-base-100 shadow-sm">
 	<div class="flex-1">
-		<a class="btn text-xl btn-ghost">Kairos Project</a>
+		<a class="btn text-xl btn-ghost" href="/home">Kairos Project</a>
 	</div>
 	<div class="flex-none">
 		<ul class="menu menu-horizontal px-1">
-			<li><a>Project philosophy</a></li>
+			<li><a href="/home/socials">Socials</a></li>
 			<li>
 				<details>
 					<summary>Games</summary>
