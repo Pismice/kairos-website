@@ -44,6 +44,8 @@
 		"vite": "^7.0.4"
 	},
 	"dependencies": {
+		"@types/dotenv": "^6.1.1",
+		"dotenv": "^17.2.3",
 		"mysql2": "^3.12.0"
 	}
 }
