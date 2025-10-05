@@ -32,7 +32,7 @@
 							</div>
 							<div>
 								<div class="font-bold">{player.name}</div>
-								<div class="text-sm opacity-50">Normal Player</div>
+								<div class="text-sm opacity-50">{player.user_type}</div>
 							</div>
 						</div>
 					</td>
