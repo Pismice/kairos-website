@@ -20,10 +20,32 @@ if (!DATABASE_URL) {
     process.exit(1);
 }
 
+function convertSteamIDToSteam64(steamId: string): string | null {
+    // Parse STEAM_0:Y:Z format
+    const match = steamId.match(/^STEAM_([0-1]):([0-1]):(\d+)$/);
+    if (!match) {
+        console.warn(`Invalid Steam ID format: ${steamId}`);
+        return null;
+    }
+
+    const [, , Y, Z] = match;
+    
+    // Convert to Steam64 using the formula: 76561197960265728 + Z*2 + Y
+    const steam64 = BigInt('76561197960265728') + BigInt(Z) * BigInt(2) + BigInt(Y);
+    
+    return steam64.toString();
+}
+
 async function getSteamProfilePicture(steamId: string): Promise<string | null> {
+    let steamID64 = convertSteamIDToSteam64(steamId);
+    if (!steamID64) {
+        console.warn(`Failed to convert Steam ID to Steam64: ${steamId}`);
+        return null;
+    }
+
     try {
         const response = await fetch(
-            `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${STEAM_API_KEY}&steamids=${steamId}`
+            `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${STEAM_API_KEY}&steamids=${steamID64}`
         );
         
         if (!response.ok) {
