@@ -4,8 +4,6 @@
 	const { data } = $props<{ data: PageData }>();
 </script>
 
-<h1>Player ranking</h1>
-
 <ul class="list rounded-box bg-base-100 shadow-md"></ul>
 
 <div class="overflow-x-auto">
@@ -29,10 +27,7 @@
 						<div class="flex items-center gap-3">
 							<div class="avatar">
 								<div class="mask h-12 w-12 mask-squircle">
-									<img
-										src="https://img.daisyui.com/images/profile/demo/2@94.webp"
-										alt="Avatar Tailwind CSS Component"
-									/>
+									<img src={player.avatar || '/logo.png'} alt="Avatar Tailwind CSS Component" />
 								</div>
 							</div>
 							<div>
