@@ -1,2 +1,3 @@
 - [ ] se baser sur rok
     - [ ] socials qui ont chacun leur place dans le layout en haut
+- [ ] filmer du gameplay et mettre ca a la place de la cscz background image
