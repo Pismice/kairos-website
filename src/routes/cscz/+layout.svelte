@@ -3,10 +3,13 @@
 </script>
 
 <div class="navbar bg-base-100 shadow-sm">
-	<div class="flex-1">
-		<a class="btn text-xl btn-ghost">CS:CZ Zombie Plague</a>
+	<div class="navbar-start">
+		<a class="btn flex items-center text-xl btn-ghost" href="/">
+			<img src="/transp.png" alt="Logo" class="mt-6 h-32 w-auto" />
+		</a>
+		<a class="btn text-xl btn-ghost" href="/cscz">CS:CZ Zombie Plague</a>
 	</div>
-	<div class="flex-none">
+	<div class="navbar-end">
 		<ul class="menu menu-horizontal px-1">
 			<li>
 				<a
@@ -21,10 +24,16 @@
 					</svg>
 				</a>
 			</li>
-			<li><a href="/cscz">Description</a></li>
+			<li><a href="/cscz#features">Description</a></li>
 			<li><a href="/cscz/state">State of the server</a></li>
 			<li><a href="/cscz/ranking">Player ranking</a></li>
 		</ul>
 	</div>
 </div>
 {@render children?.()}
+
+<style>
+	:global(html) {
+		scroll-behavior: smooth;
+	}
+</style>

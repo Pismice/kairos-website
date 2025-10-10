@@ -3,10 +3,12 @@
 </script>
 
 <div class="navbar bg-base-100 shadow-sm">
-	<div class="flex-1">
-		<a class="btn text-xl btn-ghost" href="/home">Kairos Project</a>
+	<div class="navbar-start">
+		<a class="btn flex items-center text-xl btn-ghost" href="/">
+			<img src="/transp.png" alt="Logo" class="mt-6 h-32 w-auto" />
+		</a>
 	</div>
-	<div class="flex-none">
+	<div class="navbar-end">
 		<ul class="menu menu-horizontal px-1">
 			<li><a href="/home/socials">Socials</a></li>
 			<li>
