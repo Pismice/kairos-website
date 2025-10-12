@@ -20,7 +20,9 @@
 				Revive the clasic Counter-Strike Zombie Plague experience with modern features
 			</p>
 			<div class="flex justify-center gap-4">
-				<button class="btn btn-lg btn-primary" on:click={connectToServer}>Join Battle</button>
+				<button class="btn btn-lg btn-primary" on:click={connectToServer}
+					>Connect to the server</button
+				>
 				<button class="btn btn-outline btn-lg">Watch Trailer</button>
 			</div>
 		</div>

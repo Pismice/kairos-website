@@ -1,3 +1,27 @@
 @import 'tailwindcss';
 @plugin "daisyui";
 @plugin '@tailwindcss/typography';
+
+h1 {
+    @apply text-4xl font-bold text-primary mb-4;
+}
+
+h2 {
+    @apply text-3xl font-semibold text-primary mb-3;
+}
+
+h3 {
+    @apply text-2xl font-medium text-base-content mb-2;
+}
+
+h4 {
+    @apply text-xl font-medium text-base-content mb-2;
+}
+
+h5 {
+    @apply text-lg font-medium text-base-content mb-1;
+}
+
+h6 {
+    @apply text-base font-medium text-base-content mb-1;
+}
