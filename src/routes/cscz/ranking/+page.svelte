@@ -15,7 +15,7 @@
 				<th>Name</th>
 				<th>Points</th>
 				<th>Kills</th>
-				<th>Played Time</th>
+				<th>Played Time (min)</th>
 				<th>Ammo packs</th>
 			</tr>
 		</thead>
@@ -41,7 +41,7 @@
 					</td>
 					<td>{player.kills}</td>
 					<th>
-						{player.total_played_time}
+						{Math.round(player.total_played_time / 60)}
 					</th>
 					<th>
 						{player.ammo_packs}
