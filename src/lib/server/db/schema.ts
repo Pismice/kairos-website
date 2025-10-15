@@ -9,5 +9,7 @@ export const players = mysqlTable('players', {
 	total_played_time: int('total_played_time').default(0),
 	ammo_packs: int('ammo_packs').default(0),
 	lastconnect: timestamp('lastconnect').defaultNow(),
+	knife: int('knife').default(0),
+	country: varchar('country', { length: 16 }).default(''),
 	avatar: varchar('avatar', { length: 500 })
 });
