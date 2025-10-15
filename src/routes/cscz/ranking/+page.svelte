@@ -13,6 +13,7 @@
 			<tr>
 				<th>Rank</th>
 				<th>Name</th>
+				<th>Country</th>
 				<th>Points</th>
 				<th>Kills</th>
 				<th>Played Time (min)</th>
@@ -35,6 +36,19 @@
 								<div class="text-sm opacity-50">{player.user_type}</div>
 							</div>
 						</div>
+					</td>
+					<td>
+						{#if player.country}
+							<img
+								src={`https://flagcdn.com/16x12/${player.country.toLowerCase()}.png`}
+								alt={player.country}
+								width="16"
+								height="12"
+								class="mr-2 inline-block"
+							/>
+						{:else}
+							{'-'}
+						{/if}
 					</td>
 					<td>
 						{player.kills}
