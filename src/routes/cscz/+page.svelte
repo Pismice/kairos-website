@@ -74,13 +74,65 @@
 				</figure>
 
 				<div class="card-body lg:w-1/2">
-					<h3 class="card-title">Modern eBot Plugin</h3>
-					<p>
-						Advanced AI-powered bots with intelligent decision making and realistic gameplay
-						behavior
-					</p>
+					<h3 class="card-title">Modern Bots AI</h3>
 					<div class="card-actions justify-end">
 						<div class="badge badge-primary">Latest Technology</div>
+					</div>
+				</div>
+			</div>
+			<div class="card bg-base-100 shadow-xl lg:card-side">
+				<figure class="lg:w-1/2">
+					<div
+						class="flex h-48 w-full items-center justify-center bg-cover bg-center"
+						style="background-image: url(/bhop.jpg);"
+					></div>
+				</figure>
+				<div class="card-body lg:w-1/2">
+					<h3 class="card-title">Auto Bunny Hop</h3>
+					<div class="card-actions justify-end">
+						<div class="badge badge-secondary">Gameplay</div>
+					</div>
+				</div>
+			</div>
+			<div class="card bg-base-100 shadow-xl lg:card-side">
+				<figure class="lg:w-1/2">
+					<div
+						class="flex h-48 w-full items-center justify-center bg-cover bg-center"
+						style="background-image: url(/special_weapons.jpg);"
+					></div>
+				</figure>
+				<div class="card-body lg:w-1/2">
+					<h3 class="card-title">Special Weapons</h3>
+					<div class="card-actions justify-end">
+						<div class="badge badge-secondary">Gameplay</div>
+					</div>
+				</div>
+			</div>
+			<div class="card bg-base-100 shadow-xl lg:card-side">
+				<figure class="lg:w-1/2">
+					<div
+						class="flex h-48 w-full items-center justify-center bg-cover bg-center"
+						style="background-image: url(/jetpack.jpg);"
+					></div>
+				</figure>
+				<div class="card-body lg:w-1/2">
+					<h3 class="card-title">JetPack + Rocket launcher</h3>
+					<div class="card-actions justify-end">
+						<div class="badge badge-secondary">Gameplay</div>
+					</div>
+				</div>
+			</div>
+			<div class="card bg-base-100 shadow-xl lg:card-side">
+				<figure class="lg:w-1/2">
+					<div
+						class="flex h-48 w-full items-center justify-center bg-cover bg-center"
+						style="background-image: url(/knife.jpg);"
+					></div>
+				</figure>
+				<div class="card-body lg:w-1/2">
+					<h3 class="card-title">Knives Skins Menu</h3>
+					<div class="card-actions justify-end">
+						<div class="badge badge-secondary">Customization</div>
 					</div>
 				</div>
 			</div>
@@ -93,10 +145,6 @@
 				</figure>
 				<div class="card-body lg:w-1/2">
 					<h3 class="card-title">Custom Weapon Skins</h3>
-					<p>
-						Discover a vast collection of unique weapon skins to personalize your gameplay
-						experience
-					</p>
 					<div class="card-actions justify-end">
 						<div class="badge badge-secondary">Customization</div>
 					</div>
@@ -116,14 +164,14 @@
 					<span class="text-4xl">👥</span>
 				</div>
 				<div class="stat-title">Active Players</div>
-				<div class="stat-value text-primary">5+</div>
+				<div class="stat-value text-primary">30+</div>
 			</div>
 			<div class="stat">
 				<div class="stat-figure text-secondary">
 					<span class="text-4xl">🗺️</span>
 				</div>
 				<div class="stat-title">Maps supported by eBot</div>
-				<div class="stat-value text-secondary">2+</div>
+				<div class="stat-value text-secondary">10+</div>
 			</div>
 			<div class="stat">
 				<div class="stat-figure text-accent">

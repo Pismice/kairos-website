@@ -54,7 +54,7 @@
 			<li>Ranking System</li>
 			<li>And much more!</li>
 		</ul>
-		<button class="btn btn-primary">Learn More</button>
+		<a href="/cscz" class="btn no-underline btn-primary">Learn More</a>
 	</div>
 </section>
 <section

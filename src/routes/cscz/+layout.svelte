@@ -24,6 +24,7 @@
 					</svg>
 				</a>
 			</li>
+			<li><a href="/">Kairos-Project</a></li>
 			<li><a href="/cscz#features">Description</a></li>
 			<li><a href="/cscz/state">State of the server</a></li>
 			<li><a href="/cscz/ranking">Player ranking</a></li>
