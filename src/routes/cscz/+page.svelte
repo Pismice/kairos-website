@@ -11,7 +11,8 @@
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-4xl">
 			<h1
-				class="zombie-font mb-5 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-6xl font-bold text-transparent"
+				class="mb-5 bg-gradient-to-r bg-clip-text font-bold"
+				style="font-family: 'Zombie', sans-serif; font-size: 6rem;"
 			>
 				CS Zombie Plague
 			</h1>
