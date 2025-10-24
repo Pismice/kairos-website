@@ -191,7 +191,7 @@
 					<span class="text-4xl">👥</span>
 				</div>
 				<div class="stat-title">Active Players</div>
-				<div class="stat-value text-primary">30+</div>
+				<div class="stat-value text-primary">50+</div>
 			</div>
 			<div class="stat">
 				<div class="stat-figure text-secondary">
