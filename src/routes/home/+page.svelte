@@ -24,11 +24,10 @@
 	/>
 </svelte:head>
 
-<section class="bg-gradient-to-b from-gray-900 to-gray-800 px-6 py-16">
+<section class="bg-gradient-to-b from-gray-900 to-gray-800 px-6 pt-4 pb-12">
 	<div class="mx-auto max-w-4xl text-center">
-		<h1 class="mb-8 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-5xl font-bold">
-			Kairos-Project
-		</h1>
+		<h1 class="sr-only">Kairos-Project</h1>
+		<img src="/logo_transp.png" alt="Logo" class="mx-auto h-64" />
 
 		<div class="space-y-6 text-lg leading-relaxed">
 			<p class="mb-8 text-xl font-medium">
@@ -52,7 +51,7 @@
 </section>
 
 <section
-	class="h-128 w-full border-2 border-black bg-cover bg-center bg-no-repeat"
+	class="h-128 w-full border-2 border-primary bg-cover bg-center bg-no-repeat pt-6 hover:border-indigo-800"
 	style="background-image: url('/in-game1.jpg');"
 >
 	<h2>Counter-Strike: Condition Zero - Zombie Plague</h2>
@@ -73,8 +72,8 @@
 </section>
 
 <section
-	class="h-128 w-full border-2 border-black bg-cover bg-center bg-no-repeat"
-	style="background-image: url('/noimage.jpg');"
+	class="h-128 w-full border-2 border-primary bg-cover bg-center bg-no-repeat pt-6 hover:border-indigo-800"
+	style="background-image: url('/in-game2.jpg');"
 >
 	<h2>Counter-Strike: Condition Zero - Deathmatch</h2>
 	<div class="max-w-2xl rounded-lg p-6 text-white">
